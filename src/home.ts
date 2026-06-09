@@ -15,8 +15,7 @@ const home = `
         <li>Estou no segundo semestre de ADS na Faculdade Impacta;</li>
         <li>Formado no curso Certified Tech Developer da Digital House;</li>
         <li>Minha stack principal é React com JS/TS, mas tenho interesse em qualquer ferramenta de Web Dev;</li>
-        <li>Trabalhei como Dev Frontend Jr por quase 2 anos usando React e Next.js 11;</li>
-        <li>Entusiasta de 'dailies', jogos diários como Wordle.</li>
+        <li>Trabalhei como Dev Frontend Jr por quase 2 anos usando React e Next.js 11.</li>
     </ul>
   </div>
 `;
