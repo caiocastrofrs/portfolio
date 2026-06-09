@@ -51,4 +51,4 @@ const projects = `<div class="flex flex-col items-center gap-1">
     )}
 </div>`;
 
-export default projects;
+document.querySelector<HTMLDivElement>("#projects")!.innerHTML = projects;
