@@ -5,7 +5,7 @@ import projects from "./projects";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         <canvas id="cube" class="w-auto h-20 flex justify-center m-auto mb-10"></canvas>
-        <header class="border-b-5 border-indigo-50 border-dotted mb-5 w-md m-auto">
+        <header class="border-b-5 border-indigo-50 border-dotted mb-5 mx-auto sm:w-md">
             <nav class="mb-3">
                 <ul class="flex gap-1 justify-center *:border-3 *:border-x-indigo-400 *:border-b-indigo-50 *:p-0.5 *:mb-1 *:hover:bg-indigo-400 *:pr-1 *:hover:-translate-y-2 *:hover:scale-130 *:duration-40 *:ease-linear">
                     <a href="/">

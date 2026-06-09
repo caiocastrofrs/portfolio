@@ -21,10 +21,10 @@ projects_list.push({
   },
 });
 
-const projects = `<div class="flex flex-col gap-1">
+const projects = `<div class="flex flex-col items-center gap-1">
     ${projects_list.map(
       (project: Project) => `
-    <div class="w-100 border-1 rounded border-neutral-700 p-3 m-auto hover:scale-101 ease-linear duration-20">
+    <div class="max-w-md border-1 rounded border-neutral-700 p-3 mx-2 sm:mx-auto hover:scale-101 ease-linear duration-20">
         <div class="flex justify-between">
             <svg xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 24 24"

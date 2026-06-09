@@ -3,21 +3,23 @@ const age = Math.floor(
 );
 
 const home = `
+<div class="mx-auto sm:w-md p-3">
   <span class="font-[Instrument_Serif] text-3xl text-indigo-400 text-center block font-bold">Caio Castro</span>
-  <div class="flex gap-2 justify-center mb-10">
+  <div class="flex flex-col justify-center items-center mb-10">
       <span>${age}y</span>
       <span>Desenvolvedor Web</span>
       <span>São Paulo, Brasil</span>
   </div>
-  <div class="m-auto w-100">
+  <div>
     <h3 class="text-md font-bold mb-5">Sobre mim:</h3>
-    <ul class="list-disc">
+    <ul class="list-disc *:ml-3">
         <li>Estou no segundo semestre de ADS na Faculdade Impacta;</li>
         <li>Formado no curso Certified Tech Developer da Digital House;</li>
         <li>Minha stack principal é React com JS/TS, mas tenho interesse em qualquer ferramenta de Web Dev;</li>
         <li>Trabalhei como Dev Frontend Jr por quase 2 anos usando React e Next.js 11.</li>
     </ul>
   </div>
+</div>
 `;
 
 export default home;
