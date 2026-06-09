@@ -31,9 +31,6 @@ window.addEventListener("load", () => {
   const path = window.location.pathname;
 
   switch (path) {
-    case "/":
-      document.querySelector<HTMLDivElement>("#main-content")!.innerHTML = home;
-      break;
     case "/projects":
       document.querySelector<HTMLDivElement>("#main-content")!.innerHTML = projects;
       break;
@@ -42,6 +39,10 @@ window.addEventListener("load", () => {
       break;
     case "/contact":
       document.querySelector<HTMLDivElement>("#main-content")!.innerHTML = contact;
+      break;
+    case "/":
+    default:
+      document.querySelector<HTMLDivElement>("#main-content")!.innerHTML = home;
       break;
   }
 });
