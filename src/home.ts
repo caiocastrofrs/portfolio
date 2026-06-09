@@ -1,7 +1,11 @@
+const age = Math.floor(
+  Math.abs(Number(new Date()) - Number(new Date(1999, 2, 12))) / (1000 * 60 * 60 * 24) / 365,
+);
+
 const home = `
   <span class="font-[Instrument_Serif] text-3xl text-indigo-400 text-center block font-bold">Caio Castro</span>
   <div class="flex gap-2 justify-center mb-10">
-      <span>27</span>
+      <span>${age}y</span>
       <span>Desenvolvedor Web</span>
       <span>São Paulo, Brasil</span>
   </div>
